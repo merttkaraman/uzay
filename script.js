@@ -107,7 +107,6 @@ function createPlanet(imageSrc, size, growAnimation = true) {
         planet.src = planetImage; // Rastgele seçilen resmi atıyoruz
     }
     
-    planet.alt = "Gezegen";
     planet.classList.add('planet');
     if(size){
         planet.style.width = `${size}px`; // Parametre olarak gelen boyutu atıyoruz
