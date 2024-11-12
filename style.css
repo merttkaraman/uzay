@@ -4,6 +4,7 @@ body {
     background-color: #000;
     color: #fff;
     font-family: sans-serif;
+    user-select: none;
 }
 
 .container {
